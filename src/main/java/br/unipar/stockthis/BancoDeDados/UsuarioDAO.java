@@ -1,4 +1,6 @@
-package br.unipar.stockthis;
+package br.unipar.stockthis.BancoDeDados;
+
+import br.unipar.stockthis.Cadastro.Usuario;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

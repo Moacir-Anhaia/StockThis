@@ -1,4 +1,4 @@
-package br.unipar.stockthis;
+package br.unipar.stockthis.BancoDeDados;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

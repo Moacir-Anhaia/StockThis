@@ -1,4 +1,4 @@
-package br.unipar.stockthis;
+package br.unipar.stockthis.Estoque;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

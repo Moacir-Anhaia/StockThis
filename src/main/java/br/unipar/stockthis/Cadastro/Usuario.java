@@ -1,4 +1,4 @@
-package br.unipar.stockthis;
+package br.unipar.stockthis.Cadastro;
 
 public class Usuario {
 

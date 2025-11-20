@@ -1,4 +1,4 @@
-package br.unipar.stockthis;
+package br.unipar.stockthis.Estoque;
 
 public class Produto {
     private int codigo;
