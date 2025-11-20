@@ -212,7 +212,7 @@ public class EstoqueController {
 
     @FXML
     private void irParaDashboard() {
-        Alert a = new Alert(Alert.AlertType.INFORMATION, "Dashboard ainda não implementado :)");
-        a.showAndWait();
+        HelloApplication.mudarCena("Dashboard");
     }
+
 }

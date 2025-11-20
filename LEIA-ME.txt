@@ -13,7 +13,7 @@ Acesso ao Banco de Dados H2 Para abrir o banco de dados, acesse o prompt de coma
 
 URL = "jdbc:h2:./data/stockthis"; USER = "StockThis"; PASSWORD = "12345";
 
-2.3 Para o controle de usuarios cadastrados acesse "USUARIO" e clique em "run", após isso ira aparecer os usuarios cadastrados
+2.3 Para o controle de usuários cadastrados acesse "USUARIO" e clique em "run", após isso ira aparecer os usuarios cadastrados
 
 Observação importante: para registrar um novo usuário ou logar no sistema, o banco de dados precisa estar completamente fechado. Isso inclui a adição de itens no estoque "caso esteja aberto ele nao ira salvar". Esse comportamento parece ser uma limitação do próprio H2.
 
