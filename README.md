@@ -37,69 +37,52 @@ O **StockThis** é um sistema desenvolvido em Java com JavaFX para controle de e
 
 ## 📁 Estrutura de Pastas (Fiel ao Projeto)
 
-```text
-stockthis/
-└── StockThis-master/
-    ├── .gitignore
-    ├── README.txt
-    ├── h2-2.4.240.jar
-    ├── mvnw
-    ├── mvnw.cmd
-    ├── pom.xml
-    ├── .idea/
-    │   ├── .gitignore
-    │   ├── encodings.xml
-    │   ├── misc.xml
-    │   └── vcs.xml
-    ├── .mvn/
-    │   └── wrapper/
-    │       └── maven-wrapper.jar
-    └── src/
-        ├── main/
-        │   ├── java/
-        │   │   └── br/
-        │   │       └── unipar/
-        │   │           └── stockthis/
-        │   │               ├── controllers/
-        │   │               │   ├── AlterarPrecoController.java
-        │   │               │   ├── CadastroController.java
-        │   │               │   ├── DashboardController.java
-        │   │               │   ├── EstoqueController.java
-        │   │               │   ├── LoginController.java
-        │   │               │   ├── NovoItemController.java
-        │   │               │   ├── RedefinirSenhaController.java
-        │   │               │   └── HelloController.java
-        │   │               ├── dao/
-        │   │               │   ├── ProdutoDAO.java
-        │   │               │   └── UsuarioDAO.java
-        │   │               ├── database/
-        │   │               │   └── Conexao.java
-        │   │               ├── model/
-        │   │               │   ├── Produto.java
-        │   │               │   └── Usuario.java
-        │   │               ├── Main.java
-        │   │               └── util/
-        │   │                   └── Alerta.java
-        │   └── resources/
-        │       ├── Images/
-        │       │   └── IconEstoque.png
-        |       |
-        │       └── br/
-        │           └── unipar/
-        │               └── stockthis/
-        │                   ├── AlterarPreco.fxml
-        │                   ├── Cadastro.fxml
-        │                   ├── Dashboard.fxml
-        │                   ├── Estoque.fxml
-        │                   ├── Login.fxml
-        │                   ├── NovoItem.fxml
-        │                   ├── Redefinir_senha.fxml
-        │                   └── hello-view.fxml
-        │
-        └──test/
-            └── java/
-                  └── br.unipar.stockthis.BANCO_DADOS/
-                                     └── ProdutoDAOTest.java
+```
+StockThis/
+├── .gitignore
+├── h2-2.4.240.jar
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── README.md
+├── data/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── module-info.java
+│   │   │   └── br/unipar/stockthis/
+│   │   │       ├── HelloApplication.java
+│   │   │       ├── Launcher.java
+│   │   │       ├── BancoDeDados/
+│   │   │       │   ├── Database.java
+│   │   │       │   ├── ProdutoDAO.java
+│   │   │       │   └── UsuarioDAO.java
+│   │   │       ├── Cadastro/
+│   │   │       │   ├── CadastroController.java
+│   │   │       │   └── LoginController.java
+│   │   │       ├── Dashboard/
+│   │   │       │   ├── DashboardController.java
+│   │   │       │   └── UsuarioLogado.java
+│   │   │       ├── Estoque/
+│   │   │       │   ├── EstoqueController.java
+│   │   │       │   ├── NovoItemController.java
+│   │   │       │   └── Produto.java
+│   │   │       └── RedefinirSenha/
+│   │   │           └── RedefinirSenhaController.java
+│   │   ├── resources/
+│   │   │   ├── br/unipar/stockthis/
+│   │   │   │   ├── Cadastro.fxml
+│   │   │   │   ├── Dashboard.fxml
+│   │   │   │   ├── Estoque.fxml
+│   │   │   │   ├── Login.fxml
+│   │   │   │   ├── NovoItem.fxml
+│   │   │   │   └── Redefinir_senha.fxml
+│   │   │   └── Images/
+│   │   │       └── IconEstoque.png
+│   └── test/
+│       └── java/br/unipar/stockthis/
+│           └── BancoDeDados/
+│               └── ProdutoDAOTest.java
 
 ```
 ⚙️ Como Executar o Projeto
