@@ -104,7 +104,7 @@ stockthis/
 ```
 ⚙️ Como Executar o Projeto
 Clonar o repositório
-git clone <https://github.com/Moacir-Anhaia/AtividadesFX.git>
+git clone <https://github.com/Moacir-Anhaia/StockThis.git>
 Importar no IntelliJ/Eclipse
 Aguarde baixar as dependências
 Executar
