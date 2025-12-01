@@ -24,6 +24,9 @@ public class EstoqueController {
     private TextField txtBusca;
 
     @FXML
+    private Label lblUsuario;
+
+    @FXML
     private ComboBox<String> cbCategoria;
 
     @FXML
@@ -65,6 +68,12 @@ public class EstoqueController {
         if (usuarioLogado != null) {
             listaProdutos.setAll(produtoDAO.listarPorUsuario(usuarioLogado.getId()));
         }
+
+
+        if (usuarioLogado != null && lblUsuario != null) {
+            lblUsuario.setText("Olá, " + usuarioLogado.getNome());
+        }
+
 
         atualizarCategorias();
         aplicarFiltro();

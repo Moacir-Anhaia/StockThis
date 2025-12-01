@@ -19,7 +19,7 @@
         <HBox spacing="10" style="-fx-background-color: #181528; -fx-border-color: #7E57C2; -fx-padding: 16;">
             <children>
             <Separator opacity="0.0" prefHeight="0.0" prefWidth="1.0" />
-                <Label style="-fx-text-fill: #e5dbff; -fx-font-size: 18px; -fx-font-weight: bold;" text="Olá, usuário" />
+                <Label fx:id="lblUsuario" style="-fx-text-fill: #e5dbff; -fx-font-size: 18px; -fx-font-weight: bold;" text="Olá, usuário" />
             </children>
         </HBox>
     </top>
@@ -37,7 +37,7 @@
                         <Button fx:id="btnNovoItem" onAction="#abrirNovoItem" style="-fx-background-radius: 20; -fx-background-color: #ff9b27; -fx-text-fill: white; -fx-font-weight: bold;" text="Novo Item" />
                     </children>
                 </HBox>
-                <TableView fx:id="tblProdutos" prefHeight="400" VBox.vgrow="ALWAYS" style="-fx-border-color: #7E57C2; -fx-background-color: #efefff; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" >
+                <TableView fx:id="tblProdutos" prefHeight="400" style="-fx-border-color: #7E57C2; -fx-background-color: #efefff; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" VBox.vgrow="ALWAYS">
                     <columns>
 
 
